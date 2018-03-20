@@ -1,0 +1,11 @@
+---
+applications:
+- name: user-maintenance-service
+  memory: 512M
+  instances: 1
+  path: target/app.jar
+  routes:
+    - route: user-maintenance-service
+
+  env:
+    SPRING_PROFILES_ACTIVE: dev

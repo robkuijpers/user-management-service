@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.kuijpers.usermanagementservice: DEBUG
+
+server:
+    port: 8081
+
+
+application:
+  name: UserMaintenanceService
